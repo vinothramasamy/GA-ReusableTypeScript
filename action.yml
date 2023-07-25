@@ -2,6 +2,14 @@ name: 'JUnit-Test-Report-Action'
 author: 'Vijay Team'
 description: 'The Action will report the rest results'
 
+inputs:
+  greetName:
+    description: 'greet name required'
+    required: false
+    default: 'Team'
+    
+
+
 runs:
   using:'node16'
   main:'dist/index.js'
