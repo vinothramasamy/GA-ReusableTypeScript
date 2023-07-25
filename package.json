@@ -1,0 +1,23 @@
+{
+  "name": "ga-reusabletypescript",
+  "version": "0.0.0",
+  "description": "Reusable Type Git Actions",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinothramasamy/GA-ReusableTypeScript.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinothramasamy/GA-ReusableTypeScript/issues"
+  },
+  "homepage": "https://github.com/vinothramasamy/GA-ReusableTypeScript#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "typescript": "^5.1.6"
+  }
+}
