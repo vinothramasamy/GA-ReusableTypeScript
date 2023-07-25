@@ -1,0 +1,7 @@
+name: 'JUnit-Test-Report-Action'
+author: 'Vijay Team'
+description: 'The Action will report the rest results'
+
+runs:
+  using:'node16'
+  main:'dist/index.js'
